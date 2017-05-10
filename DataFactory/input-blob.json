@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "http://datafactories.schema.management.azure.com/schemas/2015-09-01/Microsoft.DataFactory.LinkedService.json",
+  "name": "input-blob",
+  "properties": {
+    "hubName": "datacopier_hub",
+    "type": "AzureStorage",
+    "typeProperties": {
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=***;AccountKey=***"
+    }
+  }
+}

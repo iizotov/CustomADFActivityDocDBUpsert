@@ -1,0 +1,18 @@
+﻿{
+  "$schema": "http://datafactories.schema.management.azure.com/schemas/2015-09-01/Microsoft.DataFactory.Table.json",
+  "name": "OutputDataset-s0s",
+  "properties": {
+    "published": false,
+    "type": "DocumentDbCollection",
+    "linkedServiceName": "output-docdb",
+    "typeProperties": {
+      "collectionName": "output-json"
+    },
+    "availability": {
+      "frequency": "Minute",
+      "interval": 15
+    },
+    "external": false,
+    "policy": {}
+  }
+}
